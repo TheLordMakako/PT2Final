@@ -7,7 +7,6 @@ import json
 import time
 import re
 import os
-import emoji  #se instala la libreria
 import unidecode #se instala la libreria
 import tweepy
 import aceso
