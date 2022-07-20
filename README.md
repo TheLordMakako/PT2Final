@@ -15,16 +15,16 @@ Repositorio de los scripts finales del proyecto terminal 2
 #Librerias
 Instalar las siguientes bibliotecas de python necesarias para la ejecución del codigo:
 
-pip install tweepy = 3.10.0
+pip install tweepy==3.10.0
 
-pip install unidecode = 1.3.4
+pip install unidecode==1.3.4
 
-pip install gremlinpython = 3.4.13
+pip install gremlinpython==3.4.13
 
-pip install black = 21.12b0
+pip install black==21.12b0
 
-pip install Flask 2.1.2
+pip install Flask==2.1.2
 
-pip install mysql-connector-python = 8.0.29
+pip install mysql-connector-python==8.0.29
 
 
