@@ -15,6 +15,7 @@ Repositorio de los scripts finales del proyecto terminal 2
 #Librerias
 Instalar las siguientes bibliotecas de python necesarias para la ejecución del codigo:
 
+
 pip install tweepy==3.10.0
 
 pip install unidecode==1.3.4
