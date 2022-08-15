@@ -18,8 +18,8 @@ if sys.platform == 'win32':
 error = []
 
 config = {
-  'host':'proyecto-terminal.mysql.database.azure.com',
-  'user':'director@proyecto-terminal',
+  'host':'proyecto-terminal2.mysql.database.azure.com',
+  'user':'director@proyecto-terminal2',
   'password':'Terla1313',
   'database':'nombrestendencias',
   'client_flags': [mysql.connector.ClientFlag.SSL],
@@ -134,9 +134,9 @@ def insert_edges(cliente, data2):
     # print("\n")
     
 def CambioDeCliente (n):
-    cliente = client.Client('wss://tendencias.gremlin.cosmos.azure.com:443/', 'g',
-                           username="/dbs/ProyectoTerminal/colls/tendencia"+ str(n) +"",
-                           password="sTFKKjM662CHmYlqApb84htpahDb0AEPBurUlPYXF3ac0bdNihJhU2EaECP6NoQJUUCFRaFATgkfsiFgtf8yBA==",
+    cliente = client.Client('wss://temas.gremlin.cosmos.azure.com:443/', 'g',
+                           username="/dbs/tendencias/colls/tendencia"+ str(n) +"",
+                           password="440HwG8jQ2nHlBHoLdOLU4S6tnC3d8iwYJuTWlNCt6RvbfdMkv3AC8Nc4RyrlszVDEwPoMrNpsG9JCumDRalVQ==",
                            message_serializer=serializer.GraphSONSerializersV2d0())
     return cliente
 
