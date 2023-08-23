@@ -28,4 +28,6 @@ pip install Flask==2.1.2
 
 pip install mysql-connector-python==8.0.29
 
+todo listo
+
 
